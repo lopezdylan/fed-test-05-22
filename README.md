@@ -1,3 +1,9 @@
+## [Walkthrough Video](https://share.cloudrumble.ca/s/xaiwS9ZaZFAQyzp)
+
+
+
+***
+
 # [Q4 Inc.](https://q4inc.com/)
 
 ## Front-end Developer Assessment
