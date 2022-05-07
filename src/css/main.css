@@ -46,6 +46,10 @@
 }
 #q4Wrapper a span {
   opacity: 0.5;
+  /* Color for file size and type */
+  color: #919394;
+  /* Removing wrapping */
+  white-space: nowrap;
 }
 
 .layout_inner {
@@ -60,5 +64,62 @@
 
 /* Begin styling the report items here! */
 .reports {
-
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 30px;
 }
+
+/* Large devices (laptops/desktops, 830px and up) */
+/* @media only screen and (max-width: 830px) {
+  .reports {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  #q4Wrapper article img {
+    width: 26vw;
+  }
+} */
+
+/* REQUIREMENT */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .reports {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  #q4Wrapper a {
+    font-size: 1.9vw;
+  }
+  #q4Wrapper article img {
+    width: 40vw;
+  }
+} 
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  .reports {
+    grid-template-columns: repeat(2, minmax(14rem, 0.5fr));
+  }
+  #q4Wrapper a {
+    font-size: 2.5vw;
+  }
+  #q4Wrapper article img {
+    width: 39vw;
+  }
+} */
+
+
+/* @media only screen and (max-width: 446px) {
+  .reports {
+    grid-template-columns: repeat(2, minmax(10rem, 0.5fr));
+  }
+  #q4Wrapper a {
+    line-height: 1.5;
+  }
+  #q4Wrapper article img {
+    width: 35vw;
+  }
+  #q4Wrapper h1 {
+    font-size: 30px;
+  }
+
+} */
