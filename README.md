@@ -1,5 +1,14 @@
 ## [Walkthrough Video](https://share.cloudrumble.ca/s/xaiwS9ZaZFAQyzp)
 
+[Alternate video link (unlisted)](https://youtu.be/mYLboWyvG8s)
+
+![Walkthrough_Video_Screenshot](https://user-images.githubusercontent.com/35977435/167267326-c94852cd-8dfa-4246-8570-ebbc16eb4ba0.PNG)
+
+
+##
+![Annual_Reports_Page_Wireframe](https://user-images.githubusercontent.com/35977435/167267277-07171420-ed34-4ab6-91b7-d9445c377e35.jpg)
+
+[Miro Link](https://miro.com/app/board/uXjVO3NcEAg=/?share_link_id=815062485900)
 
 
 ***
